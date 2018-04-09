@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/xfynx/exchange_rates_web_app.svg)](https://travis-ci.org/xfynx/exchange_rates_web_app)
+
 ### Запуск
 ```
   git clone git@github.com:xfynx/exchange_rates_web_app.git
