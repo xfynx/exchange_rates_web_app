@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/xfynx/exchange_rates_web_app.svg)](https://travis-ci.org/xfynx/exchange_rates_web_app)
 
 ### Запуск
+Понадобится redis и ruby не ниже 2.3
 ```
   git clone git@github.com:xfynx/exchange_rates_web_app.git
   cd exchange_rates_web_app
