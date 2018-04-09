@@ -1,0 +1,7 @@
+<h1>Admin</h1>
+
+<div><%= render partial: 'partials/exchange_rate_edit', collection: ExchangeRate.all %></div>
+
+<% if user_signed_in? %>
+    <li><%= link_to('Logout', destroy_user_session_path, method: :delete) %></li>
+<% end %>

@@ -1,0 +1,9 @@
+<div>
+  <%= form_for exchange_rate_edit, url: {action: "update"}, html: {class: "-"} do |f| %>
+      <%= exchange_rate_edit.currency %>: <%= f.text_field :price, size: 10 %>
+      <%= f.datetime_select :relevant_until %>
+      <%= f.hidden_field :id %>
+      <%= f.submit I18n.t('submit') %>
+  <% end %>
+</div>
+<br/>
