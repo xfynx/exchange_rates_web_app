@@ -1,6 +1,6 @@
 development:
   adapter: redis
-  url: redis://localhost:6379/1
+  url: redis://h:pd0d19ad55e4c23384a4f61fcd8ff83643e07f124cdcd8497d059457e8267c219@ec2-35-173-148-122.compute-1.amazonaws.com:36869
   channel_prefix: exchange_rates_production
 
 test:
@@ -8,5 +8,5 @@ test:
 
 production:
   adapter: redis
-  url: redis://h@pd0d19ad55e4c23384a4f61fcd8ff83643e07f124cdcd8497d059457e8267c219localhost:36869/1
+  url: redis://h:pd0d19ad55e4c23384a4f61fcd8ff83643e07f124cdcd8497d059457e8267c219@ec2-35-173-148-122.compute-1.amazonaws.com:36869
   channel_prefix: exchange_rates_production
