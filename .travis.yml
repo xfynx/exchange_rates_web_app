@@ -7,4 +7,4 @@ before_install: gem install bundler -v 1.16.0.pre.3
 services:
   - postgresql
 before_script:
-  - psql -c 'create database exchange_rates_test;' -U root
+  - psql -c 'create database exchange_rates_test;' -U postgres
